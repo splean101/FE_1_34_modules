@@ -1,6 +1,6 @@
 export const emploees = [
   { name: 'Mike', department: 'frontend', salary: 2100 },
-  { name: 'Bob', department: 'baackend', salary: 1700 },
+  { name: 'Bob', department: 'backend', salary: 1700 },
   { name: 'Nikola', department: 'frontend', salary: 1900 },
   { name: 'Alex', department: 'design', salary: 1500 },
   { name: 'Anna', department: 'sales', salary: 1800 },
