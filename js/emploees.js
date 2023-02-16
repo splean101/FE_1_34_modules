@@ -1,4 +1,4 @@
-export const emploees = [
+/*export*/ const emploees = [
   { name: 'Mike', department: 'frontend', salary: 2100 },
   { name: 'Bob', department: 'backend', salary: 1700 },
   { name: 'Nikola', department: 'frontend', salary: 1900 },
@@ -10,3 +10,5 @@ export const emploees = [
   { name: 'Harry', department: 'sales', salary: 1800 },
   { name: 'Jacob', department: 'sales', salary: 1200 },
 ];
+
+export default emploees;

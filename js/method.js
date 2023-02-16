@@ -14,4 +14,16 @@ function departmentQuantity(emploees) {
   return new Set(departments).size;
 }
 
-export { totalSalary, departmentQuantity };
+function departmentSalary(emploees) {
+  const salaries = {};
+  emploees.forEach((element) => {
+    if (salaries[element.department] === undefined) {
+      salaries[element.department] = element.salary;
+      return;
+    }
+    salaries[element.department] += element.salary;
+  });
+  return salaries;
+}
+
+export { totalSalary, departmentQuantity, departmentSalary };

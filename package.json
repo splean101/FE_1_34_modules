@@ -1,0 +1,23 @@
+{
+  "name": "fe_1_34_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/FE_1_34_modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/FE_1_34_modules/issues"
+  },
+  "homepage": "https://github.com/splean101/FE_1_34_modules#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
